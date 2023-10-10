@@ -1,0 +1,232 @@
+{
+    "name": "Incident",
+    "logo": {
+      "light": "/logo/light.png",
+      "dark": "/logo/dark.png"
+    },
+    "favicon": "/favicon.svg",
+    "colors": {
+      "primary": "#F25533",
+      "light": "#FF8469",
+      "dark": "#F25533",
+      "anchors": {
+        "from": "#7390fa",
+        "to": "#F25533"
+      }
+    },
+    "topbarCtaButton": {
+      "name": "Run an Incident",
+      "url": "https://incident.io/"
+    },
+    "topbarLinks": [
+      {
+        "name": "Login",
+        "url": "https://app.incident.io/login"
+      }
+    ],
+    "anchors": [
+        {
+            "name": "Community",
+            "icon": "slack",
+            "url": "https://incident.io/community"
+          },
+        {
+        "name": "Blog",
+        "icon": "newspaper",
+        "url": "https://incident.io/blog"
+      },
+      {
+        "name": "Changelog",
+        "icon": "list",
+        "url": "https://incident.io/changelog"
+      }
+    ],
+    "tabs": [
+        {
+            "name": "API Reference",
+            "url": "api-reference"
+        }
+    ],
+    "navigation": [
+        {
+            "group": "Getting Started with Incident",
+            "pages": [
+                "making-requests"
+            ]
+          },
+        {
+            "group": "Actions V1",
+            "pages": [
+              "api-reference/actions-v1/overview",
+              "api-reference/actions-v1/list-actions-v1",
+              "api-reference/actions-v1/show-actions-v1"
+            ]
+          },
+          {
+            "group": "Actions V2",
+            "pages": [
+                "api-reference/actions-v2/overview",
+              "api-reference/actions-v2/list-actions-v2",
+              "api-reference/actions-v2/show-actions-v2"
+            ]
+          },
+          {
+            "group": "Custom Field Options V1",
+            "pages": [
+              "api-reference/custom-field-options-v1/list-custom-field-options-v1",
+              "api-reference/custom-field-options-v1/create-custom-field-options-v1",
+              "api-reference/custom-field-options-v1/show-custom-field-options-v1",
+              "api-reference/custom-field-options-v1/update-custom-field-options-v1",
+              "api-reference/custom-field-options-v1/delete-custom-field-options-v1"
+            ]
+          },
+          {
+            "group": "Custom Fields V1",
+            "pages": [
+              "api-reference/custom-fields-v1/list-custom-fields-v1",
+              "api-reference/custom-fields-v1/create-custom-fields-v1",
+              "api-reference/custom-fields-v1/show-custom-fields-v1",
+              "api-reference/custom-fields-v1/update-custom-fields-v1",
+              "api-reference/custom-fields-v1/delete-custom-fields-v1"
+            ]
+          },
+          {
+            "group": "Utilities V1",
+            "pages": [
+              "api-reference/utilities-v1/identity-utilities-v1",
+              "api-reference/utilities-v1/openapi-utilities-v1"
+            ]
+          },
+          {
+            "group": "Incident Attachments V1",
+            "pages": [
+              "api-reference/incident-attachments-v1/list-incident-attachments-v1",
+              "api-reference/incident-attachments-v1/create-incident-attachments-v1",
+              "api-reference/incident-attachments-v1/delete-incident-attachments-v1"
+            ]
+          },
+          {
+            "group": "Incident Roles V1",
+            "pages": [
+              "api-reference/incident-roles-v1/list-incident-roles-v1",
+              "api-reference/incident-roles-v1/create-incident-roles-v1",
+              "api-reference/incident-roles-v1/show-incident-roles-v1",
+              "api-reference/incident-roles-v1/update-incident-roles-v1",
+              "api-reference/incident-roles-v1/delete-incident-roles-v1"
+            ]
+          },
+          {
+            "group": "Incident Statuses V1",
+            "pages": [
+              "api-reference/incident-statuses-v1/list-incident-statuses-v1",
+              "api-reference/incident-statuses-v1/create-incident-statuses-v1",
+              "api-reference/incident-statuses-v1/show-incident-statuses-v1",
+              "api-reference/incident-statuses-v1/update-incident-statuses-v1",
+              "api-reference/incident-statuses-v1/delete-incident-statuses-v1"
+            ]
+          },
+          {
+            "group": "Incident Types V1",
+            "pages": [
+              "api-reference/incident-types-v1/list-incident-types-v1",
+              "api-reference/incident-types-v1/show-incident-types-v1"
+            ]
+          },
+          {
+            "group": "Incidents V1",
+            "pages": [
+              "api-reference/incidents-v1/list-incidents-v1",
+              "api-reference/incidents-v1/create-incidents-v1",
+              "api-reference/incidents-v1/show-incidents-v1"
+            ]
+          },
+          {
+            "group": "Severities V1",
+            "pages": [
+              "api-reference/severities-v1/list-severities-v1",
+              "api-reference/severities-v1/create-severities-v1",
+              "api-reference/severities-v1/show-severities-v1",
+              "api-reference/severities-v1/update-severities-v1",
+              "api-reference/severities-v1/delete-severities-v1"
+            ]
+          },
+          {
+            "group": "Catalog V2",
+            "pages": [
+              "api-reference/catalog-v2/listentries-catalog-v2",
+              "api-reference/catalog-v2/createentry-catalog-v2",
+              "api-reference/catalog-v2/showentry-catalog-v2",
+              "api-reference/catalog-v2/updateentry-catalog-v2",
+              "api-reference/catalog-v2/destroyentry-catalog-v2",
+              "api-reference/catalog-v2/listresources-catalog-v2",
+              "api-reference/catalog-v2/listtypes-catalog-v2",
+              "api-reference/catalog-v2/createtype-catalog-v2",
+              "api-reference/catalog-v2/showtype-catalog-v2",
+              "api-reference/catalog-v2/updatetype-catalog-v2",
+              "api-reference/catalog-v2/destroytype-catalog-v2",
+              "api-reference/catalog-v2/updatetypeschema-catalog-v2"
+            ]
+          },
+          {
+            "group": "Custom Fields V2",
+            "pages": [
+              "api-reference/custom-fields-v2/list-custom-fields-v2",
+              "api-reference/custom-fields-v2/create-custom-fields-v2",
+              "api-reference/custom-fields-v2/show-custom-fields-v2",
+              "api-reference/custom-fields-v2/update-custom-fields-v2",
+              "api-reference/custom-fields-v2/delete-custom-fields-v2"
+            ]
+          },
+          {
+            "group": "Follow-ups V2",
+            "pages": [
+              "api-reference/follow-ups-v2/list-follow-ups-v2",
+              "api-reference/follow-ups-v2/show-follow-ups-v2"
+            ]
+          },
+          {
+            "group": "Incident Roles V2",
+            "pages": [
+              "api-reference/incident-roles-v2/list-incident-roles-v2",
+              "api-reference/incident-roles-v2/create-incident-roles-v2",
+              "api-reference/incident-roles-v2/show-incident-roles-v2",
+              "api-reference/incident-roles-v2/update-incident-roles-v2",
+              "api-reference/incident-roles-v2/delete-incident-roles-v2"
+            ]
+          },
+          {
+            "group": "Incident Timestamps V2",
+            "pages": [
+              "api-reference/incident-timestamps-v2/list-incident-timestamps-v2",
+              "api-reference/incident-timestamps-v2/show-incident-timestamps-v2"
+            ]
+          },
+          {
+            "group": "Incident Updates V2",
+            "pages": [
+              "api-reference/incident-updates-v2/list-incident-updates-v2"
+            ]
+          },
+          {
+            "group": "Incidents V2",
+            "pages": [
+              "api-reference/incidents-v2/list-incidents-v2",
+              "api-reference/incidents-v2/create-incidents-v2",
+              "api-reference/incidents-v2/show-incidents-v2",
+              "api-reference/incidents-v2/edit-incidents-v2"
+            ]
+          },
+          {
+            "group": "Users V2",
+            "pages": [
+              "api-reference/users-v2/list-users-v2",
+              "api-reference/users-v2/show-users-v2"
+            ]
+          }
+    ],
+    "footerSocials":
+      {
+          "twitter": "https://twitter.com/incident_io",
+          "linkedin": "https://www.linkedin.com/company/incident-io/"
+      }
+  }
